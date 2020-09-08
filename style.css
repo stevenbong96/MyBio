@@ -5,12 +5,11 @@ body{
 }
 .container{
     background-color:white;
-}
-.container{
     margin: 0 auto;
     border: 1px solid black;
     margin-top: 10vh;
 }
+
 .index-positioning, .contact-positioning, .portfolio-positioning{
     padding-bottom: 3%;
     width: 40%;
@@ -70,5 +69,8 @@ button{
 @media screen and (max-width: 800px){
     body{
         background-color: maroon;
+    }
+    .container{
+        width: 15%;
     }
 }
