@@ -32,30 +32,19 @@
     </nav>
 
     <!-- About Me Main Part -->
-    <div class="container contact-positioning">
-        <div class="row">
-            <div class="col-md-12">
-                    <h1>Contact</h1> 
-
-                    <hr>
-                    
-                    <p>Name</p>
-                    <input type="text" class="small-area" placeholder="Name">
-
-                    <h6>Email</h6>
-                    <input type="text" class="small-area" placeholder="Email">
-
-                    <h5>Message</h5>
-                    <input type="text" class="text-area" placeholder="Message">
-
-                    <br>
-                    <br>
-                    
-                    <button>Submit</button>
+    <main class="container contact-positioning">
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-        </div>
-    </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+    </main>
 
-    <footer class="contact-footer">&copy; Copyright</footer>
+    <footer class="footer">&copy; Copyright</footer>
 </body>
 </html>

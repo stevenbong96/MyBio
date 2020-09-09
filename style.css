@@ -5,15 +5,15 @@ body{
 }
 .container{
     background-color:white;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border: 1px solid black;
     margin-top: 10vh;
 }
 
-.index-positioning, .contact-positioning, .portfolio-positioning{
+/* .index-positioning, .contact-positioning, .portfolio-positioning{
     padding-bottom: 3%;
     width: 40%;
-}
+} */
 
 img {
     float: left;
@@ -24,7 +24,7 @@ p{
     text-align: justify;
 }
 
-hr{
+.line-container{
     height: 10px;
     color: gray;
     border-width: 1.5px;
@@ -45,8 +45,10 @@ button{
     padding: 5px 10px 5px 10px;
     margin-bottom: 2%;
 }
+
 .text-area{
-    padding: 0px 0px 50px 0px;
+    display: grid;
+    padding: 5px 10px 5px 10px;
     width: 90%;
     height: 25%;
 }
@@ -55,14 +57,13 @@ button{
     text-align: center;
     background-color: gray;
     margin-top: 3%;
-    padding-bottom: 10vh;
+    padding-bottom: 7.3vh;
 }
 
-.contact-footer{
-    text-align: center;
-    background-color: gray;
-    margin-top: 6.2%;
-    padding-bottom: 10vh;
+.line-footer{
+    color: green;
+    height: 10px;
+    border-width: 10px;
 }
 
 /* Give responsive design for smaller screens using media screen */
@@ -70,7 +71,13 @@ button{
     body{
         background-color: maroon;
     }
-    .container{
-        width: 15%;
+    
+    h1{
+        font-size: 10px;
+
+    }
+    
+    button{
+        padding: 1px 1px 1px 1px;
     }
 }
