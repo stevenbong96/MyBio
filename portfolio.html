@@ -10,73 +10,100 @@
 
     <!-- CSS file -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive media -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Steven Bong</a>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../MyBio/contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../MyBio/index.html">About</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <!-- Unordered List -->
+        <section class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end">
+            
+            <!-- Contact hyperlink -->
+            <li class="nav-item active">
+              <a class="nav-link" href="../MyBio/contact.html">Contact </a>
+            </li>
+            
+            <!-- Portfolio hyperlink -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <!-- About hyperlink -->
+            <li class="nav-item">
+                <a class="nav-link" href="../MyBio/index.html">About</a>
+              </li>
+          </ul>
+
+          <!-- Hamburger Button -->
+          <form class="form-inline my-2 my-lg-0"></form>
+        </section>
+      </nav>
 
     <!-- About Me Main Part -->
-    <main class="container portfolio-positioning">
+    <main class="container">
 
         <!-- One main row -->
-        <div class="row">
+        <section class="row">
             <!-- Portfolio Header -->
             <h1>Portfolio</h1> 
-        </div>
+        </section>
 
         <!-- Underline tag -->
-        <hr class="line-container">
+        <hr>
                 
              <!-- Subrow -->
             <section class="row pic-positioning">
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="https://placekitten.com/350/350" alt="Kitten Picture">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="https://placekitten.com/350/350" alt="Kitten Picture">
-                    </div>
+                <!-- First column -->
+                <section class="col-md-6">
+                    <img class="img-fluid port-picture" src="../MyBio/Image from iOS.jpg" alt="Kitten Picture">
+                </section>
+
+                <!-- Second column -->
+                <section class="col-md-6">
+                    <img class="img-fluid port-picture" src="../MyBio/Image from iOS (1).jpg" alt="Kitten Picture">
+                </section>
             </section>
 
             <!-- Subrow -->
             <section class="row pic-positioning">
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="https://placekitten.com/350/350" alt="Kitten Picture">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="https://placekitten.com/350/350" alt="Kitten Picture">
-                    </div>
+                <!-- First column -->
+                <section class="col-md-6">
+                    <img class="img-fluid port-picture" src="../MyBio/Image from iOS (2).jpg" alt="Kitten Picture">
+                </section>
+
+                <!-- Second column -->
+                <section class="col-md-6">
+                    <img class="img-fluid port-picture" src="../MyBio/Image from iOS (3).jpg" alt="Kitten Picture">
+                </section>
             </section>
 
             <!-- Subrow -->
             <section class="row pic-positioning">
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="https://placekitten.com/350/350" alt="Kitten Picture">
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="https://placekitten.com/350/350" alt="Kitten Picture">
-                    </div>
+                <!-- First column -->
+                <section class="col-md-6">
+                    <img class="img-fluid port-picture" src="../MyBio/Image from iOS (4).jpg" alt="Kitten Picture">
+                </section>
+
+                <!-- Second column -->
+                <section class="col-md-6">
+                </section>
             </section>
            
-        
     </main>
 
+    <!-- Footer Line -->
+    <hr>
 
-    <footer class="footer">&copy; Copyright</footer>
+    <!-- Footer -->
+    <footer>&copy; Copyright</footer>
 </body>
 </html>

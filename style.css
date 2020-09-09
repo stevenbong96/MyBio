@@ -1,3 +1,4 @@
+/* Laying out and styling the original size  */
 body{
     background-image: url(../MyBio/wp1987229.jpg);
     background-size: cover;
@@ -5,28 +6,38 @@ body{
 }
 .container{
     background-color:white;
-    /* margin: 0 auto; */
     border: 1px solid black;
     margin-top: 10vh;
 }
 
-/* .index-positioning, .contact-positioning, .portfolio-positioning{
-    padding-bottom: 3%;
-    width: 40%;
-} */
+.index-height{
+    min-height: 57.1vh;
+}
 
-img {
+.contact-height{
+    min-height: 63.3vh;
+    padding: 10px 50px 50px 10px;
+}
+
+.prof-picture {
     float: left;
-    padding-right: 20px;
+    padding-right: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+.port-picture{
+    height: 350px;
+    width: 350px;
 }
 
 p{
     text-align: justify;
 }
 
-.line-container{
+hr{
     height: 10px;
-    color: gray;
+    color: maroon;
     border-width: 1.5px;
 }
 
@@ -53,17 +64,11 @@ button{
     height: 25%;
 }
 
-.footer{
+footer{
     text-align: center;
     background-color: gray;
     margin-top: 3%;
-    padding-bottom: 7.3vh;
-}
-
-.line-footer{
-    color: green;
-    height: 10px;
-    border-width: 10px;
+    min-height: 10vh;
 }
 
 /* Give responsive design for smaller screens using media screen */
@@ -71,13 +76,24 @@ button{
     body{
         background-color: maroon;
     }
-    
-    h1{
-        font-size: 10px;
-
+    .port-picture{
+        padding-bottom: 0px;
     }
-    
-    button{
-        padding: 1px 1px 1px 1px;
+    .pic-positioning{
+        float: none;
+    }
+}
+
+/* Give responsive design for the smallest resolution using media screen */
+@media screen and (max-width: 400px){
+    .pic-positioning{
+        padding-bottom: 0px;
+    }
+    .port-picture{
+        padding-bottom: 10px;
+    }
+    .prof-picture{
+        height: 200px;
+        width: 200px;
     }
 }
