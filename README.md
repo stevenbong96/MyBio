@@ -1,3 +1,7 @@
+Link to HW github: https://github.com/stevenbong96/MyBio
+Link directly to website: https://stevenbong96.github.io/MyBio/
+
+
 The overall of this HW is to utilize the use of Bootstrap and deepen the understand of CSS styling and positioning such as rows and columns on website. The students need to have basic understanding on how to use these features as these are the minimum requirements in doing this HW. For this HW, I did several things in step, which listed as below:
    1. Made 3 HTML files and 1 CSS file
    2. Made the navbar, main section, footer, and layout with the exact same position as the reference

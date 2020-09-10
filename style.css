@@ -8,22 +8,22 @@ body{
     background-color:white;
     border: 1px solid black;
     margin-top: 10vh;
+    width: 60vw;
 }
 
 .index-height{
-    min-height: 57.1vh;
+    min-height: 60vh;
 }
 
 .contact-height{
-    min-height: 63.3vh;
     padding: 10px 50px 50px 10px;
 }
 
 .prof-picture {
     float: left;
     padding-right: 10px;
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
 }
 
 .port-picture{
@@ -64,13 +64,24 @@ button{
     height: 25%;
 }
 
-footer{
+.port-footer{
     text-align: center;
     background-color: gray;
     margin-top: 3%;
     min-height: 10vh;
 }
-
+.contact-footer{
+    text-align: center;
+    background-color: gray;
+    margin-top: 4%;
+    min-height: 10vh;
+}
+.index-footer{
+    text-align: center;
+    background-color: gray;
+    margin-top: 4.5%;
+    min-height: 10vh;
+}
 /* Give responsive design for smaller screens using media screen */
 @media screen and (max-width: 800px){
     body{
@@ -80,7 +91,16 @@ footer{
         padding-bottom: 0px;
     }
     .pic-positioning{
-        float: none;
+        padding-bottom: 0px;
+    }
+    .port-picture{
+        padding-bottom: 20px;
+    }
+    .container{
+        width: 100%;
+    }
+    .contact-footer{
+        margin-top: 11.6%;
     }
 }
 
@@ -95,5 +115,12 @@ footer{
     .prof-picture{
         height: 200px;
         width: 200px;
+    }
+    .container{
+        width: 100%;
+    }
+    .contact-footer{
+        margin-top: 1%;
+        min-height: 7.2vh;
     }
 }
